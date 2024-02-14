@@ -21,14 +21,20 @@ function Footer() {
                 <a  style={{textDecoration:'none', color:'black'}} href="https://react-bootstrap.netlify.app/">React Bootstrap</a>
                 <a  style={{textDecoration:'none', color:'black'}} href="https://reactrouter.com/en/main">React Routing</a>
                 </div>
-            <div className="col-lg-3 p-3">
+            <div className="col-lg-3 p-3 ">
                 <h5>Contact</h5>
                 <div className='d-flex'>
-                    <input style={{borderRadius:'10px',marginRight:'5px'}}  type="text"placeholder='Email id ' />
-                    <button style={{borderRadius:'10px',padding3:'3px'}} >Submit</button>
+                    <input style={{borderRadius:'10px',marginRight:'5px',width:'300px',border:'none'}}  type="text"placeholder='Email id ' />
+                    <button style={{borderRadius:'10px',padding3:'3px,',width:'100px',border:'none'}} >Submit</button>
                 </div>
-                <div className='d-flex mt-3'>
-                <i class="fa-brands fa-square-facebook"></i>
+                <div className='d-flex mt-3 ' style={{justifyContent:'space-between'}}>
+                <a href=''><i class="fa-brands fa-square-facebook"></i></a>
+<a href=''>
+                    <i class="fa-brands fa-instagram"></i>
+    
+</a>                <a href=''><i class="fa-brands fa-spotify"></i></a>
+                <a href=''><i class="fa-brands fa-twitter"></i></a>
+                <a href=''><i class="fa-brands fa-youtube"></i></a>
                 </div>
 
                 </div>
