@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <Navbar className="bg-info">
+    <Navbar style={{backgroundColor:'#acd4f2'}} className="">
     <Container>
      <Link to={'/'} style={{textDecoration:'none'}}>
           <Navbar.Brand  style={{color:"white",fontSize:'35px',fontWeight:'700'}}>

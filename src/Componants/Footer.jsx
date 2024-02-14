@@ -39,7 +39,7 @@ function Footer() {
 
                 </div>
         </div>
-        Footer
+        <p className='text-center mt-2' >Copyright &copy; 2024 Media Player.Built with React</p>
     </div>
   )
 }
